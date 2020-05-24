@@ -1,0 +1,10 @@
+html{
+    background-color: grey ;
+    #main{
+    background-color: orchid;
+    border:5px solid green
+}
+#sides{
+    background-color: peru;
+    border:5px solid goldenrod
+}

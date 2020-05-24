@@ -1,0 +1,29 @@
+html{
+    background-color: grey ;
+    background-image: url("../images/entreeHome.jpg");
+    background-size: cover;
+    
+    
+}
+h1{
+    text-align: center;
+    color:rgb(197, 125, 31);
+    font-size: 4em;
+    border-bottom: 2px solid indianred;
+
+}
+body{
+    text-align: center;
+}
+img{
+    display:block;
+    margin:auto;
+}
+a{
+    font-weight: 700 ;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: orangered;
+}
+
