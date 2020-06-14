@@ -1,0 +1,59 @@
+body{
+    text-align: center;
+}
+h2{
+    color: rgb(238, 10, 10);
+    border :solid rgb(108, 65, 225) ;
+    width: 10em;
+    margin: auto;
+    
+}
+#lorem::first-line{
+    color: rgb(255, 0, 191);
+}
+p:first-child{
+    color: rgb(117, 205, 90);
+}
+p:last-of-type{
+    color: rgb(251, 255, 0);
+}
+p:first-of-type{
+    font-size: x-large;
+}
+table{
+    margin:3em  auto ;
+    border-collapse: collapse;
+}
+td, th {
+    border: 1px solid black;
+    padding: 1em;
+}
+tr[odd]{
+    background-color: sandybrown;
+}
+tr:not(odd){
+    background-color: olivedrab;
+}
+caption{
+    color: yellowgreen;
+    font-size: 2em;
+    border:1px solid blue;
+}
+form{
+    padding-bottom: 4em;
+    border: 1px green;
+    color: rgb(255, 0, 179);
+}
+input{
+    width:30%;
+    border: 1px green;
+    display: block;
+    margin: auto;
+}
+ [type="submit"]{
+    width:15%;
+}
+textarea{
+    height: 5em;
+    width: 10em;
+}
