@@ -1,0 +1,155 @@
+html{
+    font-family:  Helvetica,Arial, sans-serif;
+    
+}
+body{
+    margin:0 5em;
+    padding-top:50px;
+    padding-bottom: 50px;
+}
+
+nav{
+    background-color: black;
+    color: white;
+    position: absolute ;
+    top:0;
+    left:0;
+    width: 100%;
+    padding-top:10px;
+}
+.jumbotron{
+    text-align: center;
+    margin-bottom:10px;
+    padding:1.5em 0;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    background-color: lightgrey ;
+}
+ul{
+    padding-left: 5em;
+}
+nav li{
+    display: inline
+}
+a{
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+a:hover{
+    color:red;
+}
+header{
+    text-align: center;
+}
+h2{
+    text-transform: uppercase;
+}
+.subtitle{
+    font-weight: bold;
+}
+span{
+    font-style: italic;
+}
+img{
+    width:100%;
+}
+video{
+    width: 100%;
+}
+section{
+    text-align: center;
+    display: grid;
+    grid-template-columns:repeat(auto-fit 3, minmax(100px,1fr));
+    column-gap: 2em;
+}
+h5{
+    font-weight: bold;
+}
+p{
+    text-align: justify;
+}
+footer{
+    background-color: black;
+    color: white;
+    position: fixed ;
+    bottom:0;
+    left:0;
+    width: 100%;
+    padding-left: 5em;
+    height:50px;
+    line-height: 50px;
+}
+input{
+    box-shadow: 2px 4px 4px black;
+    margin-left:5px;
+    border-radius: 6px;
+}
+#signup{
+    text-align: center;
+}
+section+.jumbotron{
+    border-radius: 10px;
+    background-color: lightgrey;
+}
+table{
+    margin: auto ;
+    overflow-x: scroll;
+}
+tr:nth-child(1n):hover{
+    background-color: blue;
+}
+td, th {
+    border: 1px solid black;
+    text-align: right;
+}
+table caption{
+    caption-side: top;
+    text-align: center;
+    color: black;
+}
+td:nth-of-type(1) {
+    font-weight: bold;
+}
+ tr th {
+    text-align: center;
+}
+td:nth-of-type(6) {
+    color: red;
+}
+tfoot td:nth-of-type(1){
+    font-weight: bold;
+    text-align: right;
+}
+tfoot td:nth-of-type(2){
+    color: red;
+}
+
+tbody [odd]{
+    background-color: lightblue;
+}
+.scroll{
+
+    overflow-x: auto;
+}
+@media screen and (min-width:1000px){
+    section{
+        display: grid;
+        grid-template-columns:repeat(3,1fr);
+        column-gap: 1px;
+    }
+    .wrapper{
+        background-color: black;
+    }
+    section > div{
+        background-color: white;
+        padding: 10px;
+    }
+   form{
+        display: grid;
+        grid-template-columns:min-content repeat(6,min-content);
+        column-gap: 3px;
+        justify-content: center;
+    }
+    
+}
