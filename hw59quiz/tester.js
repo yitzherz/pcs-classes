@@ -1,4 +1,7 @@
-
+// SL - 95 - nice!
+// SL - you should get in habit of always using an IIFE, no globals..
+// SL - no use strict, warnings about "app is not defined"
+// SL - no for loops?
 let y = app.counters.createCounter();
 console.log('y', y.getCount());
 y.incrementCount();

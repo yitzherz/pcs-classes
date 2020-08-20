@@ -1,3 +1,4 @@
+// SL - nice
 (function () {
     'use strict';
 
@@ -9,7 +10,8 @@
         return newArray;
     }
 
-    
+    // SL - not a problem, but perfect opportunity for an arrow function, so much less code
+    //let result = multiplyMap(nums, x => x * 2)
     function multiplyBy2(a) {
         return a * 2;
     }

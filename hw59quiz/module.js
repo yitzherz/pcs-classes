@@ -1,3 +1,4 @@
+// SL - nice
 var app = app || {};
 
 
@@ -9,8 +10,8 @@ app.counters = (function (theModule) {
 
 
     theModule.getCount = () => counter;
-        
-    
+
+
 
     return theModule;
 
