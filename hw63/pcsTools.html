@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+
+  <body>
+    <h1 id="donald">Donald Trump</h1>
+    <h1 id="joe">Joe Biden</h1>
+    <hr>
+    <!-- <h2 id="clock">clock</h2> -->
+
+    <script src="pcsTools2.js"></script>
+    <script src="clock.js"></script>
+    <script>
+
+      pcs('donald')
+        .css('color', 'blue')
+        .click(() => console.log('The Donald was clicked!'));
+
+      const joe = pcs('joe');
+      //joe.setCss('color', 'red');
+      //console.log(joe.getCss('color'));
+      joe.css('color', 'red');
+      console.log(joe.css('color'));
+
+      joe.hide();
+      setTimeout(() => joe.show(), 2000);
+      joe.changeColors(10000,1000)
+      
+    </script>
+  </body>
+
+</html>
