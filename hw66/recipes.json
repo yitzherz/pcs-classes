@@ -1,0 +1,17 @@
+[
+    {
+        "name":"fish",
+        "photoUrl":"fish.jpg",
+        "igredients":["salmon","oil","salt"]
+    },
+    {
+        "name":"steak",
+        "photoUrl":"steak.jpg",
+        "igredients":["pepper","oil","sauce"]
+    },
+    {
+        "name":"chocolateCake",
+        "photoUrl":"chocolateCake.jpg",
+        "igredients":["cocoa","oil","sugar"]
+    }
+]
