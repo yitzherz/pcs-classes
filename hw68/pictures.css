@@ -12,6 +12,12 @@ body{
     padding-top:1em;
 
 }
+#searchLabel{
+    font-weight: bold;
+}
+#searchInput{
+    border-radius: 8px;
+}
 #pictures{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;

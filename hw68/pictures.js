@@ -2,7 +2,7 @@
 (function () {
     'use strict';
 
-    const search = $('#search');
+    const search = $('#searchInput');
     const imagesElem = $('#pictures');
     const SearchButton = $('#enterButton');
 

@@ -1,0 +1,12 @@
+#location{
+    text-align: center;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    border: 2px solid darkviolet;
+    width: 300px;
+    margin: auto;
+    background-color: rgb(49, 156, 147);
+}
+button{
+    border-radius: 1em;
+}
