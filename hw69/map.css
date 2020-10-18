@@ -1,0 +1,50 @@
+body ,html{
+    width:100%;
+    height:100%;
+    margin:0;
+}
+#searchDiv{
+    width: 100%;
+    height:53px;
+    background-color: rgb(11, 184, 40);
+}
+#searchBar{
+    float:right;
+    margin-right: 3em;
+    padding-top:1em;
+
+}
+#searchLabel{
+    font-weight: bold;
+}
+#searchInput{
+    border-radius: 8px;
+}
+#map{
+    
+    height:100%;
+    
+}
+#sidebar{
+    width:25%;
+    float: left;
+    border:2px solid blue;
+    overflow-y: auto;
+    display:none;
+}
+ul {
+    margin:0;
+    padding:0;
+}
+li{
+    margin:0;
+    list-style-type: none;
+    border:2px solid blue;
+    padding:1em;  
+    text-align: justify;
+    background-color: lightblue;
+}
+li h3{
+    margin-top: 0;
+    text-align: center;
+}
