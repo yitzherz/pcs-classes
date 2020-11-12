@@ -47,7 +47,7 @@
                 });
                 const ordered = new Order(order.customer, order.address, itemForm);
                 orderForm.push(ordered);
-                str += `\r\n ${order.customer} ${order.address} ordered for a total of ${ordered.total} : `;
+                str += `\r\n ${ordered.customerName} ${ordered.customerAddress} ordered for a total of ${ordered.total} : `;
                 itemForm.forEach(item => str += `${item.quantity} ${item.name} for ${item.price} a piece `);
                 console.log(orderForm,ordered.total);
             });
