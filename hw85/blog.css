@@ -1,0 +1,8 @@
+#usersList li{
+    border: solid black 1px;
+    list-style: none;
+    width: 225px;
+    margin-bottom: 2px;
+    cursor: pointer;
+    
+}
