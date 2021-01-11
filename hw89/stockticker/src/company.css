@@ -1,0 +1,6 @@
+.company{
+    border: black solid 1px ;
+    width: 300px;
+    display:none;
+    cursor: pointer;
+}
