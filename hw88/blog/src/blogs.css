@@ -1,0 +1,11 @@
+h1{
+    text-align: center;
+}
+.blog{
+    display: inline-block;
+    width:33.33%;
+    list-style-type: none;
+    border: solid black 1px;
+    box-sizing: border-box;
+    text-align: center;
+}
