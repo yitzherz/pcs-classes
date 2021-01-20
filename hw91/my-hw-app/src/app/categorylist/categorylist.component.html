@@ -1,0 +1,10 @@
+
+<h2>Choose A Category</h2>
+<div *ngFor="let category of categoryStock; let i = index"  id="categoryButtons">
+    <button id="catButton" (click)="getList(i)">{{category.categoryType}}</button>
+    <app-category [clicked]="clicked" [category]="categoryStock[i]"></app-category>
+</div>
+
+
+
+

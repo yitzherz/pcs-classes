@@ -1,0 +1,8 @@
+#categoryButtons{
+    display: inline;
+}
+#catButton{
+    width: 75px;
+    margin-right: 2px;
+    background-color: bisque;
+}

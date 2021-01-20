@@ -1,0 +1,4 @@
+<h3>Enter A Zipcode</h3>
+<input [(ngModel)]="zipInput" name="name"  type="text"/>
+<button (click)="getTheWeather()">GO</button>
+<app-weather-display [weather]="weatherData"></app-weather-display>

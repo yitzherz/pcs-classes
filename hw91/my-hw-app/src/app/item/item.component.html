@@ -1,0 +1,8 @@
+
+
+<div *ngFor="let item of items">
+    {{item.name}} {{item.price | currency}}
+</div>
+<div *ngIf="!items?.length">
+    <div>No Items</div>
+</div>
