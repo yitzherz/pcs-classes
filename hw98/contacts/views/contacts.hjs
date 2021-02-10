@@ -1,0 +1,7 @@
+<ul>
+  {{#contacts}}
+  <li>{{first}} {{last}}</li>
+  {{/contacts}}
+</ul>
+
+<a href="/contacts/add"></a>

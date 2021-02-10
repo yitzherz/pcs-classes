@@ -1,0 +1,5 @@
+<form action="/contacts/addNew" method="POST">
+First Name <input type="text" name="first">
+Last Name <input type="text" name="last">
+<button type="submit">Add</button>
+</form>
