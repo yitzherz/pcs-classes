@@ -1,0 +1,6 @@
+
+<h2>Hi {{person}} You visited {{amountVisited}} times</h2>
+<form>
+    Enter your name: <input type="text" name="name">
+    <button>submit</button>
+</form>
